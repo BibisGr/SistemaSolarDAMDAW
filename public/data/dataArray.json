@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Mercurio",
+    "tipo": "Rocoso",
+    "diametro_km": 4879,
+    "distancia_media_sol_km": 57900000,
+    "periodo_orbital_dias": 88,
+    "numero_lunas": 0,
+    "tiene_anillos": false,
+    "color": "gris"
+  },
+  {
+    "nombre": "Venus",
+    "tipo": "Rocoso",
+    "diametro_km": 12104,
+    "distancia_media_sol_km": 108200000,
+    "periodo_orbital_dias": 225,
+    "numero_lunas": 0,
+    "tiene_anillos": false,
+    "color": "naranja-amber"
+  },
+  {
+    "nombre": "Tierra",
+    "tipo": "Rocoso",
+    "diametro_km": 12742,
+    "distancia_media_sol_km": 149600000,
+    "periodo_orbital_dias": 365,
+    "numero_lunas": 1,
+    "tiene_anillos": false,
+    "color": "azul y verde"
+  },
+  {
+    "nombre": "Marte",
+    "tipo": "Rocoso",
+    "diametro_km": 6779,
+    "distancia_media_sol_km": 227900000,
+    "periodo_orbital_dias": 687,
+    "numero_lunas": 2,
+    "tiene_anillos": false,
+    "color": "rojo"
+  },
+  {
+    "nombre": "Jupiter",
+    "tipo": "Gigante gaseoso",
+    "diametro_km": 139820,
+    "distancia_media_sol_km": 778500000,
+    "periodo_orbital_dias": 4333,
+    "numero_lunas": 95,
+    "tiene_anillos": true,
+    "color": "rojo, ambar"
+  },
+  {
+    "nombre": "Saturno",
+    "tipo": "Gigante gaseoso",
+    "diametro_km": 116460,
+    "distancia_media_sol_km": 1434000000,
+    "periodo_orbital_dias": 10759,
+    "numero_lunas": 146,
+    "tiene_anillos": true,
+    "color": "azul y gris"
+  },
+  {
+    "nombre": "Urano",
+    "tipo": "Gigante helado",
+    "diametro_km": 50724,
+    "distancia_media_sol_km": 2871000000,
+    "periodo_orbital_dias": 30687,
+    "numero_lunas": 27,
+    "tiene_anillos": true,
+    "color": "gris"
+  },
+  {
+    "nombre": "Neptuno",
+    "tipo": "Gigante helado",
+    "diametro_km": 49244,
+    "distancia_media_sol_km": 4495000000,
+    "periodo_orbital_dias": 60190,
+    "numero_lunas": 14,
+    "tiene_anillos": true,
+    "color": "azul"
+  }
+]

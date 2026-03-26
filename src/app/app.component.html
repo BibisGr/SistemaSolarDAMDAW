@@ -1,0 +1,30 @@
+<h2>Planeta desde Planeta Data Object</h2>
+<h3>Estrella Principal: {{planetasObject.sistemaSolar.estrellaCentral}}</h3>
+<div class="cajaPrincipal">
+  @for (planeta of planetasObject.sistemaSolar.planetas; track $index){
+    <div class="cajaPlaneta">
+      <h3>{{planeta.nombre}}</h3>
+      <p>Tipo: {{planeta.tipo}}</p>
+      <p>Diametro: {{planeta.diametro_km}} KM</p>
+      <p>DMS: {{planeta.distancia_media_sol_km}} KM</p>
+      <p>POD: {{planeta.periodo_orbital_dias}}</p>
+      <p>Cantidad de Lunas: {{planeta.numero_lunas}}</p>
+      <p>Tiene Anillos: {{planeta.tiene_anillos? 'Tienen anillos': 'No tienen anillos'}}</p>
+    </div>
+  }
+</div>
+<h2>Planeta desde Planeta Data Array</h2>
+<div class="cajaPrincipal">
+  @for (planet of planetaArray; track $index){
+    <div class="cajaPlaneta">
+      <h3>{{planet.nombre}}</h3>
+      <p>Tipo: {{planet.tipo}}</p>
+      <p>Diametro: {{planet.diametro_km}} KM</p>
+      <p>DMS: {{planet.distancia_media_sol_km}} KM</p>
+      <p>POD: {{planet.periodo_orbital_dias}}</p>
+      <p>Cantidad de Lunas: {{planet.numero_lunas}}</p>
+      <p>Tiene Anillos: {{planet.tiene_anillos? 'Tienen anillos': 'No tienen anillos'}}</p>
+      <p>Color: {{planet.color}}</p>
+    </div>
+  }
+</div>
