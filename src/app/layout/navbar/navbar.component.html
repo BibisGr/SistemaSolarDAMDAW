@@ -1,0 +1,8 @@
+<ul class="nav bg-dark" data-bs-theme="dark">
+  @for (link of links; track $index) {
+    <li class="nav-item">
+      <a class="nav-link active"  routerLink="{{link.url}}">{{ link.name }}</a>
+    </li>
+  }
+
+</ul>
