@@ -1,0 +1,20 @@
+<div class="container-fluid m-2 d-flex flex-wrap justify-content-between">
+  @for (pelicula of peliculas.status; track pelicula._id) {
+    <div class="card m-2 w-25">
+      <div class="card-header">
+        <img class="card-img" src="{{pelicula.poster}}" alt="">
+        <h3 class="card-header">{{pelicula.title}}</h3>
+      </div>
+      <div class="card-body">
+        <h4>{{pelicula.director}}</h4>
+        <p class="card-text">{{pelicula.plot}}</p>
+        <ul>
+          @for (genero of pelicula.genres; track $index) {
+            <li>{{genero}}</li>
+          }
+        </ul>
+      </div>
+      <div class="card-footer"></div>
+    </div>
+  }
+</div>
